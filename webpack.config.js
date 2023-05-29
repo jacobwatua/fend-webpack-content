@@ -1,6 +1,6 @@
-const path = require('path') 
+const path = require('path')
 const webpack = require('webpack')
 
 module.exports = {
-
+    entry : path.resolve("./src/client/", "index.js"),
 }
